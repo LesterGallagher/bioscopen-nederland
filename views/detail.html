@@ -1,0 +1,82 @@
+<ons-page id="detail-page">
+    <ons-toolbar>
+        <div class="left">
+            <ons-back-button></ons-back-button>
+        </div>
+        <div class="center detail-page-title-toolbar"></div>
+        <div class="right">
+            <ons-toolbar-button onclick="fn.about()">
+                <ons-icon icon="ion-help" class="ons-icon ion-help ons-icon--ion"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+    <div class="banner" style="padding: 30px 15px; background: #750152; color: #f9f9f9">
+        <ons-row>
+            <ons-col>
+                <div class="detail-page-title lead"></div>
+                <br>
+                <div>
+                    <ons-icon icon="md-seat"></ons-icon>
+                    <span class="detail-page-seats"></span> stoelen
+                </div>
+                <div>
+                    <ons-icon icon="film"></ons-icon>
+                    <span class="detail-page-doeken"></span> doeken
+                </div>
+            </ons-col>
+            <ons-col style="text-align: right;">
+                <div class="detail-page-adres"></div>
+            </ons-col>
+        </ons-row>
+        <div style="padding-top: 100px;">
+            <div style="float: left; text-align: center;">
+                <a target="_system" class="fab detail-page-url-fab">
+                    i
+                </a>
+                <br>
+                <small class="muted">website</small>
+            </div>
+            <div style="float: left; text-align: center; margin-left: 10px;">
+                <a target="_system" class="fab detail-page-tel-fab">
+                    <ons-icon icon="md-phone"></ons-icon>
+                </a>
+                <br>
+                <small class="muted">telefoon</small>
+            </div>
+            <div style="float: left; text-align: center; margin-left: 10px;">
+                <button class="fab detail-page-map-fab">
+                    <ons-icon icon="md-map"></ons-icon>
+                </button>
+                <br>
+                <small class="muted">map</small>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <ons-list>
+        <ons-list-header>Telefoon nummer</ons-list-header>
+        <ons-list-item>
+            <span class="detail-page-tel"></span>
+        </ons-list-item>
+        <ons-list-header>Website url</ons-list-header>
+        <ons-list-item>
+            <span class="detail-page-url"></span>
+        </ons-list-item>
+        <ons-list-header>Gemeente</ons-list-header>
+        <ons-list-item>
+            <span class="detail-page-gemeente"></span>
+        </ons-list-item>
+        <ons-list-header>Woonplaats</ons-list-header>
+        <ons-list-item>
+            <span class="detail-page-woonplaats"></span>
+        </ons-list-item>
+        <ons-list-header>Postcode</ons-list-header>
+        <ons-list-item>
+            <span class="detail-page-postcode"></span>
+        </ons-list-item>
+        <ons-list-header>Straat</ons-list-header>
+        <ons-list-item>
+            <span class="detail-page-straat"></span>
+        </ons-list-item>
+    </ons-list>
+</ons-page>

@@ -1,0 +1,41 @@
+
+
+.leaflet-popup-content, 
+.leaflet-popup-content *{
+    user-select: all!important;
+    user-select: text!important;
+}
+
+#map {
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+}
+
+.muted {
+    opacity: 0.8;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.lead {
+    font-size: 1.2em;
+}
+
+#home-page-list ons-list-item[data-provincie-filter="false"],
+#home-page-list ons-list-item[data-search-filter="false"] {
+    display: none;
+}
+
+ons-toolbar.toolbar {
+    background-image: linear-gradient(0deg,rgb(43, 32, 39),rgb(93, 2, 63) 100%);
+}
+/* 
+ons-list-header.list-header {
+    background-image: linear-gradient(0deg,rgb(43, 32, 39),rgb(93, 2, 63) 100%);
+} */
+
+.search-input--material {
+    color: #f3f3f3;
+}

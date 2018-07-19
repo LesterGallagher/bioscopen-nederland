@@ -1,0 +1,42 @@
+<ons-page id="home-page">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button onclick="fn.open()">
+                <ons-icon icon="md-menu"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">Bioscopen</div>
+        <div class="right">
+            <ons-toolbar-button onclick="fn.about()">
+                <ons-icon icon="ion-help" class="ons-icon ion-help ons-icon--ion"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+
+    <ons-list id="home-page-list">
+        <ons-list-header>Filter</ons-list-header>
+        <ons-list-item>
+            <div>
+                <ons-select modifier="material underbar" id="choose-provincie">
+                    <option value="*">Alle provincies</option>
+                    <option value="Gelderland">Gelderland</option>
+                    <option value="Noord-Holland">Noord-Holland</option>
+                    <option value="Zuid-Holland">Zuid-Holland</option>
+                    <option value="Overijssel">Overijssel</option>
+                    <option value="Flevoland">Flevoland</option>
+                    <option value="Noord-Brabant">Noord-Brabant</option>
+                    <option value="Utrecht">Utrecht</option>
+                    <option value="Drenthe">Drenthe</option>
+                    <option value="Groningen">Groningen</option>
+                    <option value="Friesland">Friesland</option>
+                    <option value="Limburg">Limburg</option>
+                    <option value="Zeeland">Zeeland</option>
+                </ons-select>
+                <br>
+                <br>
+                <ons-search-input modifier="material" id="search-bioscoop" placeholder="Zoeken"></ons-search-input>
+            </div>
+        </ons-list-item>
+        <ons-list-header>Bioscopen</ons-list-header>
+    </ons-list>
+</ons-page>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.EchoSierraStudio.Bioscopen_Nederland" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Bioscopen Nederland</name>
+    <description>
+        Deze app maakt het mogelijk om bioscopen in nederland te zoeken. Je kunt gemakkelijk het adres, het aantal doeken en stoelen vinden.
+            De app kan ook offline gebruikt worden. De app gebruikt een offline kaart waardoor je deze zonder internet nog steeds kan gebruiken.
+    </description>
+    <author email="polyismstudio@gmail.com" href="https://esstudio.site/">
+        Sem Postma
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="StatusBarBackgroundColor" value="#750152" />
+    <preference name="orientation" value="portrait" />
+    <preference name="SplashScreen" value="images/logo.png" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="500" />
+    <preference name="SplashScreenBackgroundColor" value="#5d023f" />
+    <preference name="SplashScreenWidth" value="256" />
+    <preference name="SplashScreenHeight" value="256" />
+</widget>

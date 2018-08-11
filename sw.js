@@ -1,4 +1,4 @@
-var STATIC_CACHE = 'static-cache-v1'
+var STATIC_CACHE = 'bioscopen-nederland-static-cache-v1'
 
 // listen for outgoing network request
 self.addEventListener('fetch', function (event) {
@@ -33,6 +33,7 @@ self.addEventListener('install', function (event) {
                     "lib/js/onsenui.min.js",
                     "cordova.js",
                     "js/offline.js",
+                    "js/pwa-history.js",
                     "lib/js/leaflet.js",
                     "js/main.js",
                     "js/localization.js",
